@@ -2,17 +2,32 @@
 
 Agent skill for the **Market Connect** project (`fitzyracing1/marketconnect`).
 
-This repository contains the `SKILL.md` (and supporting reference) that specializes an AI agent for development, debugging, and work on the Base44 idea-submission / market-connection platform.
+This repository contains the `SKILL.md` that specializes an AI agent for development, debugging, and work on the Base44 idea-submission / market-connection platform.
+
+## Live Page (easy copy-paste)
+
+**https://fitzyracing1.github.io/marketconnectmd/**
+
+Visit the page → click **Copy full SKILL.md** → paste into your Grok skill creator or place the file at:
+
+```
+.grok/skills/marketconnect/SKILL.md
+```
 
 ## Contents
 
 - `SKILL.md` — Main skill definition (frontmatter + instructions)
 - `references/agents.md` — Original AGENTS.md content from the source repo
+- `index.html` — Clean copy-paste page for GitHub Pages
 
 ## Source
 
 Extracted from: https://github.com/fitzyracing1/marketconnect
 
-## Usage
+## Enabling the Pages site
 
-Place this skill in an agent’s skills directory (or load via Agent Skills tooling) so the agent activates on Market Connect / Base44 marketconnect related tasks.
+1. Go to **Settings → Pages**
+2. Under **Build and deployment**, set **Source** to **GitHub Actions**
+3. The workflow (`.github/workflows/pages.yml`) will deploy automatically on every push to `main`
+
+Once enabled, the site will be available at the URL above.
