@@ -31,3 +31,11 @@ Extracted from: https://github.com/fitzyracing1/marketconnect
 3. The workflow (`.github/workflows/pages.yml`) will deploy automatically on every push to `main`
 
 Once enabled, the site will be available at the URL above.
+
+## Plans
+
+This project is free, and its license stays as is. Support it through [GitHub Sponsors](https://github.com/sponsors/fitzyracing1):
+
+- **Free**: use the code, community support.
+- **Pro ($49/month)**: priority issues and support.
+- **Team ($199/month)**: priority support for your team plus early access.
